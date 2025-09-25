@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Abceed Subtitle Toggle",
+  "version": "1.0",
+  "description": "Toggle Abceed movie subtitles with 'S' key",
+  "content_scripts": [
+    {
+      "matches": ["*://*.abceed.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": []
+}
